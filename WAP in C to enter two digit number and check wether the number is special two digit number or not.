@@ -1,0 +1,23 @@
+//S.I=59
+//S.O=This a special two digit no.
+
+//For example:
+//9+5=14
+//9*5=45
+//45+14=59
+
+#inlcude<stdio.h>
+void main()
+{
+int n=59,n1,n2;
+n1=n/10;
+n2=n%10;
+int sum=n1+n2;
+int product=n1*n2;
+int total=sum+product;
+if(total==n)
+printf("This is a special two digit number\n");
+else
+printf("This is not a special two digit number\n");
+getch();
+}
