@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+int num1,num2;
+printf("Enter the first integer:");
+scanf("%d",&num1);
+printf("Enter the second integer:");
+scanf("%d",&num2);
+
+//Bitwise AND operation
+
+printf("Bitwise AND: %d\n",num1 & num2);
+
+//Bitwise OR operation
+
+printf("Bitwise OR: %d\n",num1 | num2);
+
+//Bitwise NOT operation
+
+printf("Bitwise NOT for the first integer:%d\n",~num1);
+printf("Bitwise NOT for the second integer: %d\n",~num2);
+
+//Bitwise Left Shift Operation
+printf("Bitwise Left Shift(num1<<1);
+printf("Bitwise Left Shift(num2<<1):%d\n",num2<<1);
+//Bitwise Right Shift Operation
+printf("Bitwise Right Shift(num1>>1):%d\n",num>>1);
+printf("Bitwise Right Shift(num2>>1:%d\n",num2>>1);
+return 0;
+}
