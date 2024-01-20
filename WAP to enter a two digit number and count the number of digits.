@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main()
+{
+int n,c=0;
+printf("Enter a two digit number\n");
+scanf("%d",&n);
+while(n>0)
+{
+n=n/10;
+if(n!=0)
+c++;
+}
+printf("Number of digits %d",c);
+getch();
+}
