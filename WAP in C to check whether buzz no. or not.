@@ -1,0 +1,15 @@
+//Buzz no. -> A number which ends with 7,or divisible 7.
+
+#include<stdio.h>
+void main()
+{
+int n,r=0,q=0;
+printf("Enter a no.\n");
+scanf("%d",&n);
+
+if(r%7==0 && r%10==7)
+printf("No. is Buzz no.\n");
+else
+printf("No. is not Buzz no.\n");
+getch();
+}
