@@ -1,0 +1,33 @@
+#include<stdio.h>
+void main()
+{
+int a,b,c;
+printf("Enter 1st no.\n");
+scanf("%d",&a);
+printf("Enter 2nd no.\n");
+scanf("%d",&b);
+printf("Enter 3rd number\n");
+scanf("%d",&c);
+if(a>b && a>c)
+{
+if(b>c)
+printf("%d is mid",b);
+else
+printf("%d is mid",c);
+}
+else if(b>a && b>c)
+{
+if(a>c)
+printf("%d is mid\n",a);
+else
+printf("%d is mid\n",c);
+}
+else
+{
+if(a>b)
+printf("%d is mid\n",a);
+else
+printf("%d is mid\n",b);
+}
+getch();
+}
